@@ -33,7 +33,7 @@ function Gallery(props: Props) {
 
   useEffect(() => {
     async function axs() {
-      await axios.get(`https://eureka-mu.vercel.app/gallery?${Date.now()}`)
+      await axios.get(`https://bug-free-space-guide-v7ggj6r57vr26x5v-8080.app.github.dev/gallery?${Date.now()}`)
         .then(res => {
           setResultData(res.data)
           // console.log(data);
@@ -76,7 +76,7 @@ function Gallery(props: Props) {
 
     try {
       const res = await axios.delete(
-        `https://eureka-mu.vercel.app/gallery/${find.id}`
+        `https://bug-free-space-guide-v7ggj6r57vr26x5v-8080.app.github.dev/gallery/${find.id}`
       );
       // // console.log(props.result);
       toast.success("Image deleted successfully");

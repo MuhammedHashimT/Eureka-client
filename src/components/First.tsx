@@ -52,7 +52,7 @@ function First() {
           className="absolute top-0 w-full h-full bg-center bg-cover"
           style={{
             backgroundImage:
-              'url("/zahra.jpg")'
+              'url("/dhpc.jpg")'
           }}
         >
           <span
@@ -65,7 +65,7 @@ function First() {
             <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto md:text-center">
               <div className="pr-12">
                 <h1 className="text-white font-semibold text-5xl">
-                  Reviving the legacy of millennium.
+                Unveiling the Unknown, Creative the Unseen.
                 </h1>
               </div>
             </div>
@@ -151,18 +151,18 @@ function First() {
             <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
               <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100 cursor-pointer">
                 {/* <i className="fas fa-user-friends text-xl" />  */}
-                <img src="/img/colored-logo.png" alt="" />
+                <img src="/img/colored-logo.png" alt="" className="object-cover" />
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Reviving the legacy of millennium
+                 Unveiling the Unknown, Creative the Unseen
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                Tekton is the name of this year's Rabee'a festival organized by Fathima Zahra Islamic Women's College Students Association GAZVA.
+                
+"Eureka '23" is the intellectual beacon of enlightenment, proudly organized by the SAFA Student's Union at Darul Huda Punganur. 
               </p>
               <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
 
-                The word TEKTON means builder. Accordingly, it's interpreted as the builder of a new era.
-                The motto of the arts fest is "reviving the legacy of the millennium" which aims to regain the jewels of Muslims' lost prosperity which was vibrant before a millennium. Arts Fest will be a milestone in enhancing and nourishing the skills of students  in academic and related fields
+              In a world inundated with information, misinformation, and mysteries, Eureka '23 aspires to illuminate the path to knowledge and discovery. This academic extravaganza will be a guiding star, empowering students from diverse disciplines and academic pursuits to navigate the realm of wisdom and innovation.
               </p>
             </div>
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto cursor-pointer">

@@ -106,11 +106,11 @@ function ResultHeader() {
           </svg>
           <div className="text-center">
             <h1 className="text-4xl font-black text-secondary">
-              <span className="font-nexa">Tekton</span>&apos;
+              <span className="font-nexa">Eureka</span>&apos;
               <span className="font-nexa">23</span>
             </h1>
 
-            <h2 className="text-lg leading-4 font-nexa">ZAHRA Arts Fest</h2>
+            <h2 className="text-lg leading-4 font-nexa">DHPC Arts Fest</h2>
           </div>
           <nav>
             <ul className="mt-8 transition-all duration-400">

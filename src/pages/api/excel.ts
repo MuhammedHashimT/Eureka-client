@@ -46,7 +46,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     worksheet.mergeCells("G3:J3");
     worksheet.mergeCells("K3:M3");
     const mainTitle = worksheet.getCell("A1");
-    mainTitle.value = "TEKTON'23";
+    mainTitle.value = "EUREKA'23";
     const resultTitle = worksheet.getCell("A2");
     resultTitle.value = "RESULTS";
     worksheet.getCell("B3").value = "Programs";

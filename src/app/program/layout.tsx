@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tekton | Program",
+  title: "Eureka | Program",
   description: "Created by Farrago",
 };
 

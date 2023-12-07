@@ -20,7 +20,7 @@ const page = () => {
     return (
         <div className="p-8 h-52 w-96 fixed top-1/2 -translate-y-1/2 bg-white rounded-xl left-1/2 shadow-2xl -translate-x-1/2 flex flex-col items-center gap-5">
             <img
-                src="/img/Tekton-txt-black.png"
+                src="/img/Eureka-txt-black.png"
                 alt=""
                 className="h-12"
             />

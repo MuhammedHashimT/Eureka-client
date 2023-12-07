@@ -178,7 +178,7 @@ const Navs = (ROLE: Roles) => {
 };
 
 const SideBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const { data, setData } = useGlobalContext();
   const navs = Navs(data.admin?.roles as Roles);
   const [isSideBarOnMobile, setIsSideBarOnMobile] = useState(false);
@@ -232,7 +232,7 @@ const SideBar = () => {
                 isOpen ? "flex" : "hidden "
               }`}
             >
-              Tekton 2k23
+              Eureka 2k23
             </span>
           </div>
         </div>

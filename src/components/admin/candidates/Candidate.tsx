@@ -66,21 +66,21 @@ const Candidate = (props: Props) => {
   const candidateRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const cookie = document.cookie;
-    if (cookie) {
-      const token = cookie.split("=")[1];
-      const cv = parseJwt(token);
-      setData(
-        props.result.filter((item: any) =>
-          cv.categories?.includes(item.category.name)
-        ) as Candidate[]
-      );
-      setAllData(
-        props.result.filter((item: any) =>
-          cv.categories?.includes(item.category.name)
-        ) as Candidate[]
-      );
-    }
+    // const cookie = document.cookie;
+    // if (cookie) {
+    //   const token = cookie.split("=")[1];
+    //   const cv = parseJwt(token);
+    //   setData(
+    //     props.result.filter((item: any) =>
+    //       cv.categories?.includes(item.category.name)
+    //     ) as Candidate[]
+    //   );
+    //   setAllData(
+    //     props.result.filter((item: any) =>
+    //       cv.categories?.includes(item.category.name)
+    //     ) as Candidate[]
+    //   );
+    // }
 
     // window height settings
     const windowWidth = window.innerWidth;

@@ -61,7 +61,7 @@ const CreateCandidate = (props: Props) => {
 
         // upload image to server using axios
         const res = await fetch(
-          `https://eureka-mu.vercel.app/candidates/upload`,
+          `https://bug-free-space-guide-v7ggj6r57vr26x5v-8080.app.github.dev/candidates/upload`,
           {
             method: "POST",
             body: formData,

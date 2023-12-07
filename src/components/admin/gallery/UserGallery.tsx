@@ -32,7 +32,7 @@ function userGallery(props: Props) {
   
     useEffect(() => {
       const getGallery =  async () => {
-          await axios.get(`https://eureka-mu.vercel.app/gallery?${Date.now()}`)
+          await axios.get(`https://bug-free-space-guide-v7ggj6r57vr26x5v-8080.app.github.dev/gallery?${Date.now()}`)
               .then(res => {
                 setResultData(res.data)
                   // // console.log(data);

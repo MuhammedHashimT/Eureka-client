@@ -64,7 +64,7 @@ export default function SecondRowFirstCard(props: Props) {
                     className="2xl:w-28 2xl:h-28 w-20 h-20 rounded-full border-primary border mx-auto overflow-hidden"
                   >
                     {
-                      candidate.imageId ?
+                      candidate?.imageId ?
                       <img
                       src={`https://drive.google.com/uc?export=view&id=${candidate?.imageId}`}
                       className="w-full h-full object-cover"
@@ -79,17 +79,17 @@ export default function SecondRowFirstCard(props: Props) {
                     <h1 className="px-1">#{index + 1}</h1>
                   </span>
                   <span className="2xl:top-[6rem] left-[40%] top-[4.3rem]  absolute h-5 bg-[#28B77B] rounded-lg text-[10px] font-medium text-white flex items-center">
-                    <h1 className="px-1">#{candidate.chestNO}</h1>
+                    <h1 className="px-1">#{candidate?.chestNO}</h1>
                   </span>
                   <div className="flex flex-col h-full w-full justify-center items-center mt-4">
                     <p className="text-xs font-semibold 2xl:left-[-.3rem] text-center 2xl:top-[7.3rem] left-[-1.3rem] top-[5.5rem]">
-                      {candidate.name}
+                      {candidate?.name}
                     </p>
                     <p className="text-xs text-center 2xl:left-[.5rem] 2xl:top-[8.3rem] left-[-.5rem] top-[6.2rem]">
-                      {candidate.category?.name}
+                      {candidate?.category?.name}
                     </p>
                     <p className="text-[10px] text-center 2xl:left-[1.3rem] 2xl:top-[9.2rem] top-[7.1rem]">
-                      Team {candidate.team?.name}
+                      Team {candidate?.team?.name}
                     </p>
                   </div>
                 </div>

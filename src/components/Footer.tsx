@@ -72,7 +72,7 @@ function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap    w-full h-full justify-between">
           <img
-            src="/img/realia-txt.png" // Path to the image in the public folder
+            src="/img/realia-txt-black.png" // Path to the image in the public folder
             alt="Realia Logo"
             className="h-10 md:h-12"
           />
@@ -161,7 +161,7 @@ function Footer() {
           <div className="font-light ">
             <p className="font-semibold">Address</p>
             <p>
-            Fathima Zahra Women's College <br />
+            Fathima DHPC Women's College <br />
               Hidaya Nagar, Chammad, Tirurangadi PO <br />
               Malappuram Dist. Pin: 676306, Kerala, India
               <br />

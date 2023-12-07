@@ -4,7 +4,7 @@ import UserGallery from "@/components/admin/gallery/UserGallery";
 
 const page =async () => {
     
-  const result = await axios.get(`https://eureka-mu.vercel.app/gallery?${Date.now()}`, {
+  const result = await axios.get(`https://bug-free-space-guide-v7ggj6r57vr26x5v-8080.app.github.dev/gallery?${Date.now()}`, {
     headers: {
       'Cache-Control': 'no-cache',
       'Pragma': 'no-cache',

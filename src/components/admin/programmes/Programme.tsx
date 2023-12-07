@@ -67,21 +67,21 @@ const Programme = (props: Props) => {
   const [ isScheduleUpload ,  setIsScheduleUpload ] = useState(false)
 
   useEffect(() => {
-    const cookie = document.cookie;
-    if (cookie) {
-      const token = cookie.split("=")[1];
-      const cv = parseJwt(token);
-      setData(
-        props.result.filter((item: any) =>
-          cv.categories?.includes(item.category.name)
-        ) as Programme[]
-      );
-      setAllData(
-        props.result.filter((item: any) =>
-          cv.categories?.includes(item.category.name)
-        ) as Programme[]
-      );
-    }
+    // const cookie = document.cookie;
+    // if (cookie) {
+    //   const token = cookie.split("=")[1];
+    //   const cv = parseJwt(token);
+    //   setData(
+    //     props.result.filter((item: any) =>
+    //       cv.categories?.includes(item.category.name)
+    //     ) as Programme[]
+    //   );
+    //   setAllData(
+    //     props.result.filter((item: any) =>
+    //       cv.categories?.includes(item.category.name)
+    //     ) as Programme[]
+    //   );
+    // }
 
     // window height settings
     const windowWidth = window.innerWidth;
@@ -195,7 +195,7 @@ const Programme = (props: Props) => {
     //   const qrCodeArea = document.querySelector(".qr-code-area");
     //   (qrCodeArea as Element).innerHTML = `<QRCode
     //   id="qrcode"
-    //   value="https://Tekton23.me/program/"
+    //   value="https://Eureka23.me/program/"
     //   size={150}
     //   level={"H"}
     //   includeMargin={false}
@@ -406,7 +406,7 @@ const Programme = (props: Props) => {
       {/* <div className="qr-code-area">
         <QRCode
           id="qrcode"
-          value="https://Tekton23.me/program/$%7BprogramCode%7D"
+          value="https://Eureka23.me/program/$%7BprogramCode%7D"
           size={150}
           level={"H"}
           includeMargin={false}
@@ -418,7 +418,7 @@ const Programme = (props: Props) => {
              return(
               <QRCode
               className="qrcodes"
-              value= {`https://Tekton23.me/program/${item.programCode}`}
+              value= {`https://Eureka23.me/program/${item.programCode}`}
               size={150}
               level={"H"}
               includeMargin={false}
